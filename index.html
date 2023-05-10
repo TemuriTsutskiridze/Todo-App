@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div class = "background"></div>
+    <header>
+      <h1 class="title">TODO</h1>
+      <img class = "toggle-img" src="./images/icon-moon.svg" alt="theme-toggle icon" id = "toggle-img">
+    </header>
+
+    <div class="addTodo">
+      <input type="checkbox" name = "completed" class = "completed" id = "completed">
+      <span class = "custom-checkbox"></span>
+      <input type="text" placeholder="Create a new todo…" name = "todo" id = "add">
+    </div>
+
+
+    <div class="container">
+      <ul class = "list" id = "list"></ul>
+
+      <div class="info">
+        <p class="left" id = "left">0 items left</p>
+        <p class="clearCompleted" id = "clearCompleted">Clear Completed</p>
+      </div>
+    </div>
+
+    <div class="filterButtons">
+      <p class="filter" id = "allFilter">All</p>
+      <p class="filter" id = "activeFilter">Active</p>
+      <p class="filter" id = "completedFilter">Completed</p>
+    </div>
+
+
+    <p class="dragAndDrop">Drag and drop to reorder list</p>
+    
+
+
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
