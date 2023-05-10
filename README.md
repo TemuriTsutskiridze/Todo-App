@@ -2,7 +2,7 @@
 
 ## [Design-Figma](https://www.figma.com/file/b7FVr6rdP41bximGXp0U3r/todo-app?node-id=0-2&t=neDXnCxKqZWNUVd2-0)
 
-## [Live Web-page](https://todo-app-omega-blue.vercel.app)
+## [Live Web-page](https://todo-app-phi-rust.vercel.app)
 
 ![image 1](./public/design/active-states-dark.jpg);
 ![image 2](./public/design/active-states-light.jpg);
