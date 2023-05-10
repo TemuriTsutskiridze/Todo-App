@@ -11,3 +11,13 @@
 ![image 5](./public/design/desktop-preview.jpg);
 ![image 6](./public/design/mobile-design-dark.jpg);
 ![image 7](./public/design/mobile-design-light.jpg);
+
+## How to download:
+
+### Clone repository to your computer
+
+### Go into the project file
+
+### run "npm install" in terminal to download all necessary node modules
+
+### run live server by "npm run dev" in your terminal
