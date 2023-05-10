@@ -90,7 +90,7 @@ function addListItem(task: Task) {
     todoItem.style.textDecoration = task.completed ? "line-through" : "none";
     listItem.append(todoItem);
 
-    const deleteTask = document.createElement("img");
+    const deleteTask = document.createElement("img"); 
     deleteTask.src = "/images/icon-cross.svg";
     deleteTask.classList.add("delete")
     listItem.append(deleteTask);
