@@ -27,8 +27,6 @@ tasks.forEach((task) => {
   addListItem(task);
 });
 
-console.log(tasks);
-
 left.textContent = `${tasks.length} items left`;
 
 todoInput?.addEventListener("keydown", (event: KeyboardEvent) => {
@@ -47,7 +45,6 @@ todoInput?.addEventListener("keydown", (event: KeyboardEvent) => {
     todoInput.value = "";
 
     left.textContent = `${tasks.length} items left`;
-    console.log(tasks);
   }
 });
 
@@ -113,12 +110,12 @@ function addListItem(task: Task) {
     if (draggedItem === null) {
       return;
     }
-    (event.target as HTMLLinkElement).parentNode?.insertBefore(
-      draggedItem,
-      event.target as HTMLLinkElement
-    );
-    let index = tasks.indexOf(task);
-    console.log(index);
+    if ((event.target as HTMLElement).classList.contains("list-item")) {
+      (event.target as HTMLElement).parentNode?.insertBefore(
+        draggedItem,
+        event.target as HTMLElement
+      );
+    }
   });
 }
 
@@ -147,6 +144,7 @@ clearCompleted.addEventListener("click", () => {
   removeTasks();
   tasks.forEach(addListItem);
   left.textContent = `${tasks.length} items left`;
+  saveTasks();
 });
 
 function removeTasks() {
