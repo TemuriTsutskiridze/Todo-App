@@ -4,6 +4,31 @@
 
 ## [Live Web-page](https://todo-app-phi-rust.vercel.app)
 
+## Technologies Used
+
+- HTML
+- SCSS
+- Typescript
+
+## Getting Started
+
+To get a local copy of the project up and running, follow these steps:
+
+1.  Clone the repository:
+
+    ```shell
+    git clone https://github.com/TemuriTsutskiridze/Todo-App.git
+    ```
+
+2.  Install the dependencies:
+
+    ```shell
+    cd project-name
+    npm install
+    ```
+
+## Design Preview
+
 ![image 1](./public/design/active-states-dark.jpg);
 ![image 2](./public/design/active-states-light.jpg);
 ![image 3](./public/design/desktop-design-dark.jpg);
@@ -11,13 +36,3 @@
 ![image 5](./public/design/desktop-preview.jpg);
 ![image 6](./public/design/mobile-design-dark.jpg);
 ![image 7](./public/design/mobile-design-light.jpg);
-
-## How to download:
-
-### Clone repository to your computer
-
-### Go into the project file
-
-### run "npm install" in terminal to download all necessary node modules
-
-### run live server by "npm run dev" in your terminal
